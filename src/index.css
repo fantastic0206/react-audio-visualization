@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  display: grid;
+  background: #333e5a;
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  background: #f0293e;
+  color: #fff;
+  text-align: center;
+}
+
+main {
+  min-height: 80vh;
+  background: #fff;
+}
+main .controls {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding: 0.5em 0; */
+  /* background: #333e5a; */
+  background: white;
+  color: #fff;
+}
+main canvas {
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  background-image: url("./asset/canvas_back.png");
+  /* background: rgb(69, 117, 206); */
+}
+footer {
+  background: #333e5a;
+  color: #fff;
+  text-align: center;
+}
+.micbutton{
+  background-color: dodgerblue;
+  height: 40px;
+  border:1px solid rgb(127, 127, 190);
+  border-radius: 6px;
+}
+.marginApp {
+  margin-top: 10%;
+}
+.butdiv {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, #18396e, #23457e);
+  padding: 0.5em 0;
+  width: 1240px;
+  display: flex;
+  height: 54px;
+  /* justify-content: center; */
+}
+.butdiv button {
+  margin-left:560px;
+  background-color: #102d5d;
+  padding: 15px;
+}
+.butmargin {
+  padding-left:200px;
+}
+.counter {
+  margin-top:10px;
+  height: 18px;
+  color:#ff0033;
+}
+.icon1 {
+  color:white;
+}
+.stopicontime{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  color:#a00606;
+  border: 1px solid #102d5d;
+  background-color: #102d5d;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.stopicontime svg {
+  color: #102d5d;
+  background: #ff0033;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 3px;
+}
+
